@@ -1,0 +1,61 @@
+<!doctype html>
+<htmml>
+    <head>
+        <script>
+            console.log("intro to js");
+            //how too create a var
+            //var keywoard variable name;
+            //consol is an object refrence
+            //log is a function
+            var a;  //declaration of variable
+            console.log(a)
+            
+
+            a=10;;
+            console.log(a)
+            console.log(typeof(a))//data type of number
+
+            a="javascript"
+            console.log(a)
+            console.log(typeof(a)) //datatype - string
+
+            a=true
+            console.log(a)
+            console.log(typeof(a))
+
+            //function
+            //how to declare a function
+            //function use to perform task
+
+            //function functionname(){
+
+           // }
+
+           function display(){
+            console.log("we are learning function in js")
+           }
+           display()
+           function add(a, b){
+            console.log(a+b)
+           }
+           add(10,20)
+
+           function CallfromclickButton(){
+            console.log("we are calling from callFromclickButton")
+
+           }
+           function CallfromoverButton()
+           {
+            console.log("mouse over is printing")
+           }
+        </script>
+        
+    </head>
+    <body>
+        <button onclick="callFromclickButton()">click me</button>
+        <button onmouseover="CallfromoverButton()">Mouse</button>
+
+        <div id="message"></div>
+        
+   </body>
+</htmml>
